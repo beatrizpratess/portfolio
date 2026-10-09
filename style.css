@@ -1,6 +1,3 @@
-/* =========================================================
-   TOKENS
-========================================================= */
 :root {
   --bg: #FFFBF5;
   --pink: #FFD6E8;
@@ -76,9 +73,6 @@ section { position: relative; padding: 96px 8vw; }
   background: var(--yellow);
 }
 
-/* =========================================================
-   NAV
-========================================================= */
 .nav-wrap {
   position: sticky;
   top: 0;
@@ -145,9 +139,6 @@ section { position: relative; padding: 96px 8vw; }
   transition: transform 0.35s cubic-bezier(.65,0,.35,1), width 0.35s cubic-bezier(.65,0,.35,1);
 }
 
-/* =========================================================
-   HERO
-========================================================= */
 .hero {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
@@ -268,9 +259,7 @@ section { position: relative; padding: 96px 8vw; }
   object-fit: cover;
   border-radius: 26px;
 }
-/* =========================================================
-   ABOUT
-========================================================= */
+
 .about-tag {
   display: inline-block;
   font-size: 13px;
@@ -314,9 +303,6 @@ section { position: relative; padding: 96px 8vw; }
 }
 .about-label { color: var(--ink-soft); font-size: 16px; }
 
-/* =========================================================
-   SKILLS
-========================================================= */
 .skill-group { margin-bottom: 36px; }
 .skill-group-title {
   font-size: 16px;
@@ -338,9 +324,6 @@ section { position: relative; padding: 96px 8vw; }
 .chip-pink { background: var(--pink); color: var(--pink-deep); }
 .chip-yellow { background: var(--yellow); color: #8A6A00; }
 
-/* =========================================================
-   PROJECTS
-========================================================= */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -405,9 +388,6 @@ section { position: relative; padding: 96px 8vw; }
   color: var(--ink);
 }
 
-/* =========================================================
-   TIMELINE
-========================================================= */
 .timeline {
   max-width: 720px;
   border-left: 2px solid rgba(43,33,64,0.15);
@@ -434,9 +414,6 @@ section { position: relative; padding: 96px 8vw; }
 .timeline-content h4 { font-size: 19px; font-weight: 600; margin-bottom: 4px; }
 .timeline-content p { margin: 0; color: var(--ink-soft); font-size: 15.5px; }
 
-/* =========================================================
-   CONTACT
-========================================================= */
 .contact {
   position: relative;
   text-align: center;
@@ -480,9 +457,6 @@ section { position: relative; padding: 96px 8vw; }
 .contact .btn-primary { background: transparent; border: 1.5px solid rgba(43,33,64,0.3); color: var(--ink); }
 .contact .btn-ghost { border-color: rgba(43,33,64,0.3); color: var(--ink); }
 
-/* =========================================================
-   FOOTER
-========================================================= */
 .footer {
   text-align: center;
   padding: 40px 8vw 60px;
@@ -490,9 +464,6 @@ section { position: relative; padding: 96px 8vw; }
   color: var(--ink-soft);
 }
 
-/* =========================================================
-   RESPONSIVE
-========================================================= */
 @media (max-width: 900px) {
   .hero { grid-template-columns: 1fr; text-align: left; }
   .hero-chart { order: -1; max-width: 260px; margin: 0 auto 20px; }
@@ -516,7 +487,7 @@ section { position: relative; padding: 96px 8vw; }
   }
 }
 
-/* keyboard focus visibility */
+
 a:focus-visible, .chip:focus-visible {
   outline: 3px solid var(--pink-deep);
   outline-offset: 3px;
